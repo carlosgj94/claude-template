@@ -1,4 +1,4 @@
-# Contract Specification: [ContractName]
+# Contract Specification:
 
 ## 1. Overview
 
@@ -22,12 +22,12 @@ ContractName (implementation)
 ```
 
 ### External Dependencies
-- **[Contract/Interface Name]**: [Purpose]
-- **[Contract/Interface Name]**: [Purpose]
+- **[Contract/Interface Name]**: [Purpose][1]
+- **[Contract/Interface Name]**: [Purpose][2]
 
 ### Inheritance Tree
-- `[Contract]` - [Purpose]
-- `[Contract]` - [Purpose]
+- `[Contract]` - [Purpose][3]
+- `[Contract]` - [Purpose][4]
 
 ## 3. Interface Definition
 
@@ -122,15 +122,12 @@ constructor([params])
 - `[ErrorName]()` - [When this happens]
 
 **CEI Pattern**: [✅/❌] [Checks → Effects → Interactions]
-
-**Gas Estimate**: ~[X] gas
-
 **Security Notes**:
 - [Any security considerations]
 
 ---
 
-### [Additional functions follow the same template above]
+\#\#\# [Additional functions follow the same template above]
 
 ## 6. Security Considerations
 
@@ -172,8 +169,6 @@ constructor([params])
 ### Function Optimizations
 - [Optimization strategy]
 
-### Estimated Gas Costs
-- **[Operation]**: ~[X] gas
 
 ## 8. Deployment & Verification
 
@@ -220,4 +215,8 @@ Critical functions that must not change:
 - [Metric to track]
 
 ### Emergency Contacts
-- [Role]: [Contact]
+
+[1]:	#purpose
+[2]:	#purpose
+[3]:	#purpose
+[4]:	#purpose
